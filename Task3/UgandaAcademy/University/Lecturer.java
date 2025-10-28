@@ -14,4 +14,16 @@ public class Lecturer {
         this.Department = Department;
         System.out.println("Account created for: " + Name + "  " + "Department: " + Department);
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public String getDepartment() {
+        return Department;
+    }
 }
