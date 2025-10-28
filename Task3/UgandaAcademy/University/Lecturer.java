@@ -8,4 +8,10 @@ public class Lecturer {
     {
         id = ++counter;
     }
+
+    public Lecturer(String Name, String Department) {
+        this.Name = Name;
+        this.Department = Department;
+        System.out.println("Account created for: " + Name + "  " + "Department: " + Department);
+    }
 }
