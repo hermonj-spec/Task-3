@@ -26,4 +26,10 @@ public class Lecturer {
     public String getDepartment() {
         return Department;
     }
+
+    public void getLecturerDetails() {
+        System.out.println("Name: " + getName());
+        System.out.println("ID: " + getId());
+        System.out.println("Department: " + getDepartment() + "\n");
+    }
 }
