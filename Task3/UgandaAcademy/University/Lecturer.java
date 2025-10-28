@@ -28,8 +28,8 @@ public class Lecturer {
     }
 
     public void getLecturerDetails() {
-        System.out.println("Name:" + getName());
-        System.out.println("ID:" + getId());
-        System.out.println("Department:" + getDepartment() + "\n");
+        System.out.println("Name: " + getName());
+        System.out.println("ID: " + getId());
+        System.out.println("Department: " + getDepartment() + "\n");
     }
 }
